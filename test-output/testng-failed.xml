@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="SRSproject.SRSproject.RegistrationFormTest">
+        <methods>
+          <include name="RegistrationForm_Dont_KnowMyHeritagePlusAccountValidation"/>
+          <include name="tearDown"/>
+          <include name="RegistrationForm_BrandFieldDisplayed"/>
+          <include name="RegistrationForm_GLobalsite_IncorrectEmailValidation"/>
+          <include name="RegistrationForm_GLobalsite_TermNotCheckedValidation"/>
+          <include name="RegistrationForm_KnowMyHeritagePlusAccount"/>
+          <include name="RegistrationForm_Not_Industrial_ProfessionalValidation"/>
+          <include name="RegistrationForm_QPS_BrandAndBranchValidation"/>
+          <include name="RegistrationForm_AccountInfoSelectionValidation"/>
+          <include name="RegistrationForm_PCS_BrandAndBranchValidation"/>
+          <include name="RegistrationForm_GLobalsite_FieldErrorValidation"/>
+          <include name="setUp"/>
+          <include name="RegistrationForm_DontHave_MyHeritagePlusAccountValidation"/>
+          <include name="RegistrationForm_GLobalsite_ExistingEmailValidation"/>
+          <include name="RegistrationForm_yes_Industrial_ProfessionalValidation"/>
+          <include name="RegistrationForm_GLobalsite_PhoneNoValidation"/>
+        </methods>
+      </class> <!-- SRSproject.SRSproject.RegistrationFormTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
